@@ -1,4 +1,4 @@
-package com.uoc.tfm.domain-domain;
+package com.uoc.tfm.domain;
 
 class Station {
 
