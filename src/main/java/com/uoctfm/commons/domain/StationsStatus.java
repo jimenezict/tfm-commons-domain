@@ -1,4 +1,4 @@
-package com.uoc.tfm.domain;
+package com.uoctfm.commons.domain;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
