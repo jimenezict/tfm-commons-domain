@@ -8,7 +8,7 @@ public class Stations {
     private final LocalDate date;
     private List<Station> stationList;
 
-    Stations(LocalDate date) {
+    public Stations(LocalDate date) {
         this.date = date;
     }
 
