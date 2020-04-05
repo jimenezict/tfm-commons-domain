@@ -3,7 +3,7 @@ package com.uoctfm.commons.domain;
 import java.time.LocalDate;
 import java.util.List;
 
-class Stations {
+public class Stations {
 
     private final LocalDate date;
     private List<Station> stationList;
