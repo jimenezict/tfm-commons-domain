@@ -19,3 +19,4 @@ pluginManagement {
 }
 
 rootProject.name = 'tfm-commons-domain'
+
