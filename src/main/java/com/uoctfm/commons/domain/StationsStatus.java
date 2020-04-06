@@ -24,8 +24,8 @@ public class StationsStatus implements Serializable {
         this.stationStatusList = stationStatusList;
     }
 
-    public void addStation(StationStatus stationStatus){
-        stationStatusList.add(stationStatus);
+    public void addStation(int id, int size, int occupacy){
+        stationStatusList.add(new StationStatus(id, size, occupacy));
     }
 
     public LocalDateTime getTimestamp() {
