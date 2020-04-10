@@ -3,14 +3,14 @@ package com.uoctfm.commons.domain;
 class Station {
 
     private int id;
-    private double x_coordinate;
-    private int y_coordinate;
+    private double latitude;
+    private double longitude;
     private String address;
 
-    public Station(int id, double x_coordinate, int y_coordinate, String address) {
+    public Station(int id, double latitude, double longitude, String address) {
         this.id = id;
-        this.x_coordinate = x_coordinate;
-        this.y_coordinate = y_coordinate;
+        this.latitude = latitude;
+        this.longitude = longitude;
         this.address = address;
     }
 
@@ -22,20 +22,20 @@ class Station {
         this.id = id;
     }
 
-    public double getX_coordinate() {
-        return x_coordinate;
+    public double getLatitude() {
+        return latitude;
     }
 
-    public void setX_coordinate(double x_coordinate) {
-        this.x_coordinate = x_coordinate;
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
     }
 
-    public int getY_coordinate() {
-        return y_coordinate;
+    public double getLongitude() {
+        return longitude;
     }
 
-    public void setY_coordinate(int y_coordinate) {
-        this.y_coordinate = y_coordinate;
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
     }
 
     public String getAddress() {
