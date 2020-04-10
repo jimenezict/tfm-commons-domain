@@ -1,13 +1,15 @@
-package com.uoctfm.commons.domain;
+package com.uoc.tfm.commons.domain;
 
-class Station {
+import java.io.Serializable;
+
+public class StationLocation implements Serializable {
 
     private int id;
     private double latitude;
     private double longitude;
     private String address;
 
-    public Station(int id, double latitude, double longitude, String address) {
+    public StationLocation(int id, double latitude, double longitude, String address) {
         this.id = id;
         this.latitude = latitude;
         this.longitude = longitude;

@@ -1,10 +1,16 @@
-package com.uoctfm.commons.domain;
+package com.uoc.tfm.commons.domain;
 
-class StationStatus {
+import java.io.Serializable;
+
+public class StationStatus implements Serializable {
 
     private final int id;
     private final int size;
     private final int occupacy;
+
+    public StationStatus() {
+        id = 0; size = 1; occupacy = 0;
+    }
 
     public StationStatus(int id, int size, int occupacy) {
         this.id = id;
