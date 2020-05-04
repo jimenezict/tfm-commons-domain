@@ -9,6 +9,13 @@ public class StationLocation implements Serializable {
     private double longitude;
     private String address;
 
+    public StationLocation() {
+        id = 0;
+        latitude = 0;
+        longitude = 0;
+        address = "";
+    }
+
     public StationLocation(int id, double latitude, double longitude, String address) {
         this.id = id;
         this.latitude = latitude;
